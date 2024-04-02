@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="index.css" rel="stylesheet">
+</head>
+<body>
+  <div class="header" id="header">
+    <div class="header-container">
+      <nav style="margin-right:50%;">
+        <ul class="link-list">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#skills">Skils</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="intro-div">
+        <p>FULL STACK PYTHON DEVELOPER</p>
+        <h1>Hello, I am <span>Indrajit</span><br>from Pune</h1>
+      </div>
+  
+    </div>
+  </div>
+
+  <!--About Us-->
+  <div class="about-div">
+    <div class="about-div-container">
+
+      <div class="div-profile-photo">
+        <img src="profilephoto2.jpg" width="350px" height="500px">
+      </div>
+
+      <div class="intro-session">
+        <h1>About Me!</h1>
+        <p>I am Indrajit Vasant Patil a student in MIT ACS Alandi, Always Enthusiastic about  exploring new technologies
+          currently working as intern at Erfinden technology(Pune) as software developer using Django for building web-applications
+          , I am also an athelet(long distance running) by passion, I am passionate about drawing the pictures. If I get a chance to 
+          contribute industry for betterment of business and society my action speaks louder than words.
+        </p>
+
+        <div class="about-tab-div">
+          <div class="about-link active-link" onclick="openTabContent('skills')"> Skills</div>
+          <div class="about-link" onclick="openTabContent('education')"> Education</div>
+          <div class="about-link" onclick="openTabContent('experience')"> Experience</div>
+          <div class="about-link" onclick="openTabContent('certification')"> Certification</div>
+        </div>
+
+        <!--Tab Content-->
+        <div class="about-tab-content active-content" id="skills">
+          <ul>
+            <li><span>Full Stack Development</span><br>Python web-application</li>
+            <li><span>Backend Development</span><br>Django or Flask</li>
+            <li><span>Frontend Development</span><br>React-Js Javascript HTML CSS</li>
+          </ul>
+        </div>
+
+        <div class="about-tab-content active-content" id="education">
+          <ul>
+            <li><span>MSc.Computer Apllication(Pursuing)</span><br>MIT ACSC College Alandi</li>
+            <li><span>BSc Mathematics</span><br>Dr.D.Y.Patil ACS Pimpri</li>
+            <li><span>HSC</span><br>Maharashtra State Board</li>
+            <li><span>SSC</span><br>Maharashtra State Board</li>
+          </ul>
+        </div>
+
+        <div class="about-tab-content active-content" id="experience">
+          <ul>
+            <li><span>Web-Development Internship (Erfinden)-working</span><br>2024(Feb-Jul)</li>
+            <li><span>Frontend Developer(BharatItern)</span><br>2024(Jan-Feb)</li>
+          </ul>
+        </div>
+
+        <div class="about-tab-content active-content" id="certification">
+          <ul>
+            <li><span>Full Stack Python</span><br>Adhayan It Traning and Placment</li>
+            <li><span>Fundamental Of Full Stack</span><br>Excelr</li>
+            <li><span>Java Programing</span><br>Great Learning</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--Project-->
+  <div id="projects">
+    <div class="project-container">
+      <h1 class="caption">My Projects</h1>
+      <div class="projects-list">
+
+        <div>
+          <h2>Project 1</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe nulla consequatur, eaque vero, ullam, 
+            totam cupiditate rerum placeat odio distinctio eum veritatis! Tempora, maiores incidunt? Suscipit, nobis. 
+            Rerum eos voluptatem illo itaque pariatur? Nisi, architecto debitis! Corrupti, possimus modi! Debitis 
+            velit sequi, consequatur magni doloremque eligendi ex quia deleniti neque.
+          </p>
+          <a href="#">Indrajit Patil</a>
+        </div>
+
+        <div>
+          <h2>Project 2</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe nulla consequatur, eaque vero, ullam, 
+            totam cupiditate rerum placeat odio distinctio eum veritatis! Tempora, maiores incidunt? Suscipit, nobis. 
+            Rerum eos voluptatem illo itaque pariatur? Nisi, architecto debitis! Corrupti, possimus modi! Debitis 
+            velit sequi, consequatur magni doloremque eligendi ex quia deleniti neque.
+          </p>
+          <a href="#">Indrajit Patil</a>
+        </div>
+
+        <div>
+          <h2>Project 3</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe nulla consequatur, eaque vero, ullam, 
+            totam cupiditate rerum placeat odio distinctio eum veritatis! Tempora, maiores incidunt? Suscipit, nobis. 
+            Rerum eos voluptatem illo itaque pariatur? Nisi, architecto debitis! Corrupti, possimus modi! Debitis 
+            velit sequi, consequatur magni doloremque eligendi ex quia deleniti neque.
+          </p>
+          <a href="#">Indrajit Patil</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--Contact Section-->
+  <div id="contact">
+    <div class="container">
+      <div class="contact-row">
+        <div class="contact-left">
+          <h2 id="heading-contact">Contact<span style="color: rgb(255, 221, 0);"> Me !</span></h2>
+          <p><img src="email icon.png" height="25px" width="25px"><span style="margin-left: 5px; margin-bottom: 5px;">indrajitpatil062001@gmail.com</span></p>
+          <p><img src="mobile_icon.png" height="25px" width="25px"><span style="margin-left: 5px; margin-bottom: 5px;">+91-9763723171</span></p>
+          <div class="social-media-icons">
+            <a href="https://www.instagram.com/invites/contact/?i=6ccvlbht42tu&utm_content=kw72f46 " target="_blank"><img src="instagram_icon.png" height="38px" width="38px"></a>
+            <a href="https://www.linkedin.com/in/indrajitvasantpatil" target="_blank"><img src="linkedin_icon.png" height="38px" width="38px"></a>
+            <a href="https://twitter.com/Indrajit5897" target="_blank"><img src="twitter_icon.png" height="38px" width="38px"></a>
+            <a href="https://github.com/Indra032001" target="_blank"><img src="github_icon.png" height="38px" width="38px"></a>
+          </div>
+          <div class="Resume-download">
+            <a href="Indrajit_Patil_Msc.pdf" target="_blank" style="text-decoration: none;">Dowload Resume</a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" cols="6" rows="6"></textarea>
+            <input type="submit" id="submit">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
